@@ -7,7 +7,7 @@ Bom, agora que você é parte do time responsável por este repositório, vamos 
 
 ### Clone esse repositório
 ```sh
-git clone git@github.com:kelvinromero/git-workshop.git
+git clone git@github.com:projeto-ifpb/git-workshop.git
 ```
 
 ### Crie uma branch no seguinte formato: `feature/SEU_NOME`

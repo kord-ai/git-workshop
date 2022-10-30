@@ -5,6 +5,16 @@ O objetivo desse workshop é apresentar um fluxo de trabalho básico que você e
 
 Bom, agora que você é parte do time responsável por este repositório, vamos começar a trabalhar.
 
+### Obtenha acesso ao repositório
+
+Para poder trabalhar com o repositório, você precisa ter acesso a ele. Para isso, você precisa ter uma conta no GitHub e ser adicionado como colaborador do repositório.
+Verifique o convite que você recebeu no seu e-mail e aceite-o.
+
+### Criando chave SSH
+
+Para poder se conectar ao repositório, você precisa gerar uma chave SSH e adicioná-la ao seu perfil do GitHub.
+O GitHub tem um tutorial para isso disponível aqui: https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/
+
 ### Clone esse repositório
 ```sh
 git clone git@github.com:projeto-ifpb/git-workshop.git
@@ -34,12 +44,11 @@ git commit --amend -m "chore: adds my name to list"
 git commit --amend
 ```
 
-
 ### Faça um push da sua branch para o repositório na "origem"
 ```sh
 git push origin feature/SEU_NOME
 ```
-Agora seu código está no repositório remoto, mas não na branch principal.
+Agora, seu código está no repositório remoto, mas não na branch principal.
 
 ### O bom código é revisado
 - Abra um pull request para a branch `main` do repositório original
